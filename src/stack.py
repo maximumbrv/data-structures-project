@@ -37,4 +37,4 @@ class Stack:
             self.top = self.top.next_node
             return data
         else:
-            raise(Exception, 'Stack is empty')
+            raise Exception('Stack is empty')
